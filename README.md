@@ -4,10 +4,6 @@
 
 Tiles Gallery is a modern tile showcase website where users can explore different tile designs, search tiles by title, view detailed tile information, and manage a user profile after login. The project is built with a clean responsive layout for desktop, tablet, and mobile devices.
 
-## Live URL
-
-Live Website: Add your deployed website link here
-
 ## Project Theme
 
 A website to showcase a tile gallery.
@@ -43,23 +39,6 @@ A website to showcase a tile gallery.
 - mongodb
 - animate.css
 
-## Routes
-
-### Public Routes
-
-- `/`
-- `/all-tiles`
-- `/login`
-- `/register`
-
-### Private Routes
-
-- `/tile/[id]`
-- `/my-profile`
-- `/update-profile`
-
-## Main Pages
-
 ### Home Page
 
 The Home page includes a banner section with the heading "Discover Your Perfect Aesthetic", a Browse Now button, a scrolling marquee, and a Featured Tiles section showing the top tile items.
@@ -83,10 +62,3 @@ The My Profile page displays logged-in user information including name, email, a
 ### Update Profile Page
 
 The Update Profile page allows users to update their name and image URL.
-
-## Data Source
-
-Tile data is stored in:
-
-```txt
-public/tiles.json
